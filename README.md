@@ -23,3 +23,12 @@ However, when we examine each lot individually, we can see the variance of Lot 3
 ![Lot_summary](Resources/Lot_summary.png)
 
 Lot 1 and Lot 2 still meet the design specifications for MechaCar suspension coils with variances of 0.98 and 7.47 PSI per square inch, respectively.
+
+## T-Tests on Suspension Coils
+T-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+![t_tests](Resources/t_tests.png)
+
+Assuming a significance level 0f 0.05 percent, when looking at all manufacturing lots, our p-value (0.06) is above the significance level. Therefore we do not have sufficient evidence to reject the null hypothesis, and we would state the two means are statistically similar.
+
+Still assuming a 0.05 significance level, we examined each lot individually. Lot 1 provided a p-value of 1, lot 2 had a p-value of 0.61, and lot 3 had one of 0.04. Lots 1 and 2 provide p-values greater than the significance level which, again, means there is not sufficent evidence to reject the null hypothesis and the means are statistically similar. Lot 3, however, has a p-value less than the significance level, indicating lot 3 does have sufficient evidence to reject the null hypothesis, which means the two means are not statistically similar. 
